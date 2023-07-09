@@ -1,0 +1,24 @@
+{
+	"id": "DEFECT-01",
+	"Summary": "При нажатии кнопки Оформить заказ происходит редирект на главную страницу сайта",
+	"Project": "WWW",
+	"Version": "3.0",
+	"Severity": "High",
+	"Priority": "ASAP",
+	"Status": "Open",
+	"Author": "Vladimir_T",
+	"Assigned To": "Petrov_I",
+	"Description": {
+		"Precondition": {
+			"1": "Авторизоваться на сайте"
+		},
+		"Environment": "Windows 10 Pro 22H2 Google Chrome v: 114.0.5735.134 (x86_64)",
+		"Steps to reproduce": {
+			"1": "Добавить товар в корзину",
+			"2": "Перейти в корзину",
+			"3": "Нажать на кнопку Оформить заказ"
+		},
+		"Actual result": "Происходит редирект на главуню страницу магазина",
+		"Expected result": "Пользователь переходит на страницу оплаты заказа"
+	}
+}
